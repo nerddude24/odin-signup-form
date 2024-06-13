@@ -17,39 +17,45 @@
 				<br />
 				<p>Sign up now to get started!</p>
 			</div>
-			<form action="/" method="post">
-				<fieldset>
+			<form action="/" method="post" id="signup-form">
+				<fieldset class="input-field">
 					<h1>Let's do this!</h1>
-					<div class="input-element">
-						<label for="first-name">First Name</label>
-						<input type="text" name="first-name" id="first-name" />
+					<div class="input-row">
+						<div class="input-element">
+							<label for="first-name">First Name</label>
+							<input type="text" name="first-name" id="first-name" />
+						</div>
+						<div class="input-element">
+							<label for="last-name">Last Name</label>
+							<input type="text" name="last-name" id="last-name" />
+						</div>
 					</div>
-					<div class="input-element">
-						<label for="last-name">Last Name</label>
-						<input type="text" name="last-name" id="last-name" />
+					<div class="input-row">
+						<div class="input-element">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="input-element">
+							<label for="phone">Phone Number</label>
+							<input type="tel" name="phone" id="phone" />
+						</div>
 					</div>
-					<div class="input-element">
-						<label for="email">Email</label>
-						<input type="email" name="email" id="email" />
-					</div>
-					<div class="input-element">
-						<label for="phone">Phone Number</label>
-						<input type="tel" name="phone" id="phone" />
-					</div>
-					<div class="input-element">
-						<label for="password">Password</label>
-						<input type="password" name="password" id="password" />
-					</div>
-					<div class="input-element">
-						<label for="con-password">Confirm Password</label>
-						<input type="password" name="password" id="con-password" />
+					<div class="input-row">
+						<div class="input-element">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" />
+						</div>
+						<div class="input-element">
+							<label for="con-password">Confirm Password</label>
+							<input type="password" name="password" id="con-password" />
+						</div>
 					</div>
 				</fieldset>
-				<br />
 				<button type="submit">Create Account</button>
-				<br />
-				<p>Already have an account? <span id="login-btn">Log in</span></p>
 			</form>
+			<p class="login-txt">
+				Already have an account? <span id="login-btn">Log in</span>
+			</p>
 		</div>
 	</body>
 </html>
