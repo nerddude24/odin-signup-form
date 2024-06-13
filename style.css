@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+	display: flex;
+	height: 100vh;
+
+	font-family: "Rubik", sans-serif;
+}
+
+.main {
+	flex: 2;
+}
+
+.side-image {
+	flex: 1;
+	font-family: "Roboto", sans-serif, -apple-system, system-ui;
+
+	background-image: url("./assets/space.jpg");
+}
