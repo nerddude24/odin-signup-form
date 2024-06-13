@@ -3,11 +3,12 @@
 :root {
 	--left-margin: 40px;
 }
+
 body {
 	display: flex;
 	height: 100vh;
 
-	font-family: "Rubik", sans-serif;
+	font-family: "Rubik", apple-system, sans-serif, system-ui;
 }
 
 .side-image {
@@ -48,6 +49,7 @@ body {
 .form-talk {
 	padding-left: var(--left-margin);
 
+	font-weight: 500;
 	font-size: 0.8rem;
 	word-wrap: break-word;
 }
@@ -58,22 +60,35 @@ body {
 
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 12px;
 
 	font-size: 12px;
-	padding: 24px var(--left-margin);
+	padding: 16px var(--left-margin);
 
 	box-shadow: 8px 4px 6px 1px rgba(0, 0, 0, 0.15);
 }
 
+.input-field > h1 {
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
 .input-row {
 	display: flex;
-	gap: 32px;
+	gap: 60px;
 }
 
 .input-element {
 	display: flex;
 	flex-direction: column;
+}
+
+.input-element > label {
+	color: #505050;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.2em;
+	letter-spacing: 0.15em;
 }
 
 button[type="submit"] {
