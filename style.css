@@ -15,8 +15,7 @@ body {
 .side-image {
 	flex: 1;
 	background-image: url("./assets/space.jpg");
-	background-repeat: no-repeat;
-	background-size: 720px 1280px;
+	background-size: 480px 640px;
 }
 
 .side-image > h1 {
@@ -31,7 +30,7 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(0, 0, 0, 0.8);
 	position: relative;
 	top: 5rem;
 }
