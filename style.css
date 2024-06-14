@@ -4,9 +4,16 @@
 	--left-margin: 40px;
 }
 
+/* so that the body takes the whole page */
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
 body {
 	display: flex;
-	height: 100vh;
+	background-color: #f5f5f5;
 
 	font-family: "Rubik", apple-system, sans-serif, system-ui;
 }
